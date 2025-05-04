@@ -37,7 +37,7 @@ function handleCardClick(event) {
     card.style.backgroundColor = card.dataset.color;
     selectedCards.push(card);
     if (selectedCards.length === 2) {
-        setTimeout(checkMatch, 500);
+        setTimeout(checkMatch, 350);
     }
 }
 
